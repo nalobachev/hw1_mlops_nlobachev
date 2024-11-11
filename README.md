@@ -2,6 +2,10 @@
 ## Completed by Nikita Lobachev
 
 This service can be used to train models, store them and predict.
+To run you can use following command:
+    ```bash
+    poetry run uvicorn app.main:app --reload
+    ```
 Currently following endpoints are implemeted:
 - **/train**: 
 Fits the required model with given parameters and data, and stores the fitted model. Example request:
