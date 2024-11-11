@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hw1-mlops-nlobachev"
+version = "0.1.0"
+description = "HW1 MLOPS Project"
+authors = ["Nikita Lobachev"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+fastapi = "^0.115.4"
+uvicorn = "^0.32.0"
+scikit-learn = "^1.5.2"
+pandas = "^2.2.3"
+pydantic = "^2.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
