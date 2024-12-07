@@ -12,6 +12,10 @@ uvicorn = "^0.32.0"
 scikit-learn = "^1.5.2"
 pandas = "^2.2.3"
 pydantic = "^2.9.2"
+dvc = {extras = ["aws"], version = "^3.58.0"}
+dvc-s3 = "^3.2.0"
+toml = "^0.10.2"
+python-multipart = "^0.0.19"
 
 
 [build-system]
