@@ -40,3 +40,11 @@ Predicts an output for given model using given data. Example request:
 
 - **/health**:
 Checks health status.
+
+
+# Update:
+Now its is possible to start service using docker-compose:
+  ```
+  docker-compose build
+  doccker-compose up
+  ```
